@@ -86,3 +86,6 @@ main {
   font-weight: 500;
   text-shadow: 0px 4px rgba(0, 0, 0, 0.4);
 }
+#id {
+  background-image: url(/Weather/Images/01d@2x.png);
+}

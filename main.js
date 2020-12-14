@@ -42,26 +42,6 @@ function displayResults(weather) {
 
     let hilow = document.querySelector('.hi-low');
     hilow.innerHTML = `${Math.round(weather.main.temp_min)}°F / ${Math.round(weather.main.temp_max)}°F`;
-
-    console.log(weather.weather[0].main);
-
-    if (weather.weather[0].main === "Clouds") {
-        body.style.backgroundImage = "url('./Images/Clouds.jpg')";
-    } else if (weather.weather[0].main === "Mist"){
-        body.style.backgroundImage = "url('./Images/Mist.jpg')";
-    } else if (weather.weather[0].main === "Snow") {
-        body.style.backgroundImage = "url('./Images/Snow.jpg')";
-    } else {
-        body.style.backgroundImage = "linear-gradient(180deg,rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)";
-    }
-
-    console.log(weather.weather[0].main);
-
-
-
-
-
-
 };
 
 function dateBuilder(d) {

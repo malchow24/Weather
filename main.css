@@ -26,6 +26,8 @@ header {
 header input {
   width: 100%;
   max-width: 500px;
+  height: 60px;
+  font-size: 30px;
   padding: 10px 15px;
   outline: none;
   border-radius: 16px 0px 16px 0px;

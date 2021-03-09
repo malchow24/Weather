@@ -38,7 +38,7 @@ const displayResults = (currentWeather) => {
 
     //set the details of the page
     let current = new Date();
-    date.innerHTML = dateBuilder(current);
+    date.innerHTML = dateDetails(current);
 
     //temperature
     temp.innerHTML = `${Math.round(currentWeather.main.temp)}<span>°F</span>`;
@@ -51,7 +51,7 @@ const displayResults = (currentWeather) => {
 }
 
 //Get the current date details
-const dateBuilder = (d) => {
+const dateDetails = (d) => {
     let months = ["January", "February", "March", "April", "May", "June",
     "July", "August", "September", "October", "November", "December"];
     let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
